@@ -1,0 +1,76 @@
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.content .search1{
+    position: relative;
+    background-color: red;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.search1 input{
+    width: 30vh;
+    height: 6vh;
+    border-radius: 10px;
+  
+   
+    padding: 0 50px;
+    font-size: 1rem;
+    
+}
+
+.search1 i.fa-magnifying-glass{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+    
+
+}
+
+.content .search2{
+    position: relative;
+    background-color: red;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 30px;
+    margin-bottom: 3rem;
+}
+
+.search2 .textinput{
+    width: 29.5vh;
+    height: 6vh;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 0 50px;
+    font-size: 1rem;
+    background-color: rgb(83, 82, 82);
+
+}
+
+.search2 .submitinput{
+    position: absolute;
+    top: 50%;
+    width: 5rem;
+    transform: translateY(-50%);
+    right: 0rem;
+    border-radius: 30px;
+    background-color: rgb(250, 181, 53);
+    height: 100%;
+    cursor: pointer;
+
+
+}
